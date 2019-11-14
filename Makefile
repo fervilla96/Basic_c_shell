@@ -1,2 +1,2 @@
 all:
-	gcc -o sh sh.c && gcc -o getty getty.c && gcc -o init init.c;
+	gcc -o sh includes/sh.c && gcc -o getty includes/getty.c && gcc -o init includes/init.c
